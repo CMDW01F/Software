@@ -3,19 +3,18 @@ mon = peripheral.wrap("bottom")
 mon.clear()
 mon.setTextScale(2)
 
-print("Geben Sie den Text ein, der Angezeigt werden soll:")
+print("Text eingeben:")
 local displayText = read()
 
-local textSize = string.len(displayText) -- Holen Sie sich die Länge des Textes
-
+local textSize = string.len(displayText)
 while true do
-    if pos==-textSize then -- Passen Sie die pos-Variable entsprechend der Textgröße an
+    if pos==-textSize then
         pos = 18
     end
     
     mon.clear()
     mon.setCursorPos(pos, 1.5)
-    mon.write(displayText) -- Zeigen Sie den vom Benutzer eingegebenen Text an
+    mon.write(displayText)
     pos = pos-1
     
     os.sleep(0.15)
