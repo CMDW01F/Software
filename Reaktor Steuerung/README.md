@@ -6,9 +6,9 @@ Dieses Projekt bietet eine automatisierte Steuerung für den Mekanism Mod Reakto
 
 1. Kopieren Sie das Steuerungsprogramm auf Ihren Computer mit dem folgenden Befehl:
 
-shell
+```shell
 wget https://raw.githubusercontent.com/CMDW01F/Software/main/Reaktor%20Steuerung/Steuerung.lua
-
+```
 2. Verbinden Sie den Computer, den Reaktor und die Turbine mit Modems und Kabeln. Platzieren Sie dazu ein Modem am Computer, ein Modem auf einem Turbinenventil und ein Modem auf einem Reaktor Logikadapter.
 
 3. Führen Sie das Programm aus.
