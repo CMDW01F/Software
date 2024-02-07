@@ -16,7 +16,7 @@ wget https://raw.githubusercontent.com/CMDW01F/Software/System/Reaktor%20Steueru
 4. Aktiviere den Computer von oben mit einer Redstone-Quelle.
 
 ### Nutzung
-Nach der Einrichtung können Sie den Reaktor über den Computer manuell aktivieren und deaktivieren. Die automatische Steuerung überwacht den Zustand des Reaktors und deaktiviert ihn bei Gefahr automatisch.
+Nach der Einrichtung kannst du den Reaktor über den Computer manuell aktivieren und deaktivieren. Die automatische Steuerung überwacht den Zustand des Reaktors und deaktiviert ihn bei Gefahr automatisch.
 
 ### Sicherheit
 Die automatische Steuerung ist so konzipiert, dass sie den Reaktor bei drohenden Explosionen oder Strahlungslecks sofort deaktiviert. Dies minimiert das Risiko von Schäden an Ihrer Umgebung und sorgt für eine sichere Nutzung des Reaktors.
