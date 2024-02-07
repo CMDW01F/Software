@@ -1,12 +1,15 @@
-local pos = 18
-mon = peripheral.wrap("bottom")
+print("Bitte geben Sie die Monitor-ID ein [monitor_#]:")
+local ID = read()
+
+mon = peripheral.wrap(ID)
 mon.clear()
 mon.setTextScale(2)
 
-print("Text eingeben:")
-local displayText = read()
+print("Geben Sie den Text ein, den Sie anzeigen möchten:")
+local Text = read()
 
-local textSize = string.len(displayText)
+local textSize = string.len(Text)
+
 while true do
     if pos==-textSize then
         pos = 18
@@ -18,5 +21,4 @@ while true do
     pos = pos-1
     
     os.sleep(0.15)
-    
 end
