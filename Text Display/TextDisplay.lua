@@ -17,7 +17,7 @@ while true do
     
     mon.clear()
     mon.setCursorPos(pos, 1.5)
-    mon.write(displayText)
+    mon.write(Text)
     pos = pos-1
     
     os.sleep(0.15)
