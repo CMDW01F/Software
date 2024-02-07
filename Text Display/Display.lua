@@ -1,7 +1,7 @@
 print("Bitte geben Sie die Monitor-ID ein [monitor_#]:")
 local ID = read()
 
-mon = peripheral.wrap(ID)
+mon = peripheral.wrap("monitor_"ID)
 mon.clear()
 mon.setTextScale(2)
 
