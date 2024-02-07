@@ -6,4 +6,4 @@ Jede Software hat eine kurze Bedienungsanleitung im entsprechenden Ordner
 Ein einfaches Programm um Mekanism' Reaktor und Turbine zu steuern, und diese automatisch bei Bedarf abzuschalten
 
 ### Text Display
-Lässt den Benutzer einen Text eingeben, der dann von Link nach Rechts über Verbundene Monitore angezeigt wird
+Lässt den Benutzer einen Text eingeben, der dann von Rechts nach Links über Verbundene Monitore angezeigt wird
